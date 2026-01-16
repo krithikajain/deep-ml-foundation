@@ -1,6 +1,6 @@
 import unittest
 from main import matrix_dot_vector
-import numpy as np
+import numpy as np # type: ignore
 
 class TestMatrixDotVector(unittest.TestCase):
 
